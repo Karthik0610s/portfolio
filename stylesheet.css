@@ -1,0 +1,398 @@
+htm{
+    scroll-behavior: smooth;
+}
+
+.menu{
+   background-color: black;
+  
+    
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flexbox;
+   
+}
+
+
+.menu{
+    
+    padding-top: 25px;
+    height: 100vh;
+    width: 100%;
+  
+    
+    }
+
+     
+
+    nav{
+        background-color: #000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 2rem 9%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+       
+    }
+
+    .logo{
+        color: white;
+        font-size: 28px;
+        font-family: 'League Spartan', sans-serif;
+        
+    }
+    .logo span{
+        color: rgb(255, 123, 0);
+    }
+
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 10px 20px ;
+       
+    }
+
+    nav ul li a {
+        
+        color: rgb(238, 234, 234);
+        text-decoration: none;
+        font-weight: bold;
+    }
+   
+    nav ul li a:hover{
+     color: rgb(255, 174, 0);
+     transition: .3s;
+    }
+
+    
+    
+
+    .headertxt{
+        padding-left: 10%;
+        margin-top: 20%;
+        color: white;
+       
+    }
+
+    .headertxt h1{
+        font-size: 60px;
+        margin-top: 20px;
+        font-family: 'Montserrat', sans-serif;
+       
+
+    }
+    .headertxt p{
+        font-size: small;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .roll{
+        color: orange;
+        
+    }
+
+
+    .about{
+      
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+ .content{
+    
+    padding: 80px;
+    text-align: center;
+    justify-content: center;
+    color: orange;
+    font-size: x-large;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.content span{
+    color: rgb(240, 139, 8);
+}
+
+.myself{
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    
+   
+ }
+
+ .btn{
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color: #fff;
+    background-color: orange;
+    height: 48px;
+    
+}
+ .btn1{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    
+ }
+
+ .btn a:hover{
+    color: rgb(224, 220, 210);
+     transition: .3s;
+ }
+
+ .education{
+    background-color: #020202;
+    color: rgb(7, 7, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding: 5rem;
+ }
+
+ .education .heading{
+    color: orange;
+    font-size: x-large;
+    font-family: 'League Spartan', sans-serif;
+
+ }
+
+ .heading span{
+    color: rgb(238, 236, 231);
+ }
+ .education .education-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+ }
+
+ .education-row .title{
+    color: aliceblue;
+    font-size: x-large;
+    margin: 0 0 1.5rem;
+    padding-top: 25%;
+}
+.education-column .education-box{
+    border-left: .2rem solid orange;
+}
+
+.education-box .education-content{
+    position: relative;
+    padding-left: 2rem;
+}
+ .education-content .content{
+    position: relative;
+    padding: 1.5rem;
+    border: .2rem ;
+ }
+
+  p{
+    color: white;
+    padding-top: 2px;
+    font-family: 'League Spartan', sans-serif;
+    
+ }
+
+ .year{
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+
+ }
+
+ h4{
+    color: #fff;
+    font-family: 'League Spartan', sans-serif; 
+ }
+
+ .skill{
+    background-color: black;
+    width: 500px;
+    margin: 60px auto;
+    padding: 20px;
+    box-shadow: 0 2px 28px orange,  0 10px;
+    text-align: center;
+ }
+
+ .skill li{
+    color: #fff;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+
+ }
+
+.skill p{
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: x-large;
+
+}
+
+.skill span{
+    color: orange;
+}
+.skills{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+.end{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        background: #000;
+       background-color: rgb(29, 27, 27);
+      text-align: center;
+}
+
+ .page ul {
+    position: relative;
+    display: flex;
+}
+.page ul li {
+    position: relative;
+    list-style: none;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.page ul li a {
+    text-decoration: none;
+}
+
+.social span{
+    color:orange;
+}
+
+@media only screen and (max-width:700px){
+   
+    body{
+        background-color: black;
+        
+    }
+.menu{
+   
+    padding-top: 25px;
+    height: 50vh;
+    width: 100%;
+  
+    
+    }
+
+    nav{
+        padding-left: 30px;
+        position: fixed;
+    }
+    nav ul li{
+     
+        list-style: none;
+        display: inline-block;
+        justify-content: space-between;
+        padding: 10px 5px ;
+       
+    }
+
+    nav ul li a {
+        display: block;
+        
+        color: rgb(238, 234, 234);
+        text-decoration: none;
+        font-weight: bold;
+    }
+   
+    nav ul li a:hover{
+     color: rgb(255, 174, 0);
+     transition: .3s;
+    }
+
+    .headertxt{
+        padding-top: 100px;
+        padding-left: 10%;
+        margin-top: 20%;
+        color: white;
+       
+    }
+
+    .logo{
+        
+        color: white;
+        font-size: 28px;
+        font-family: 'League Spartan', sans-serif;
+        
+    }
+    .logo span{
+        color: rgb(255, 123, 0);
+    }
+   
+    .skill{
+        background-color: black;
+        width: 500px;
+        margin: 60px auto;
+        padding: 20px;
+        box-shadow: 0 2px 28px orange,  0 10px;
+        justify-content: center;
+        text-align: center;
+     }
+     .myself{
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        padding-left: 25px;
+        color: white;
+       font-family: 'Montserrat', sans-serif;
+        
+       
+     }
+     .skill p{
+        padding-bottom: 25px;
+        justify-content: center;
+        text-align: center;
+        font-family: 'League Spartan', sans-serif;
+        font-size: x-large;
+    
+    }
+
+    .about .content{
+        background-color: black;
+        
+        
+    }
+    
+    .about .content .myself{
+        color: white;
+        }
+        .end{
+            background-color: rgb(82, 80, 80);
+        }
+
+}
